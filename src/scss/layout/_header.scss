@@ -5,7 +5,7 @@
 }
 .header {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,8 +16,8 @@
     width: 15px;
   }
   .brook-logo {
-    display: inline-block;
-    width: 115px;
+    display: block;
+    width: 100px;
     img {
       width: 100%;
     }
@@ -25,14 +25,14 @@
   .header-mobile-button {
     display: block;
     background-image: url("../images/menu-icon.png");
+    background-repeat: no-repeat;
     background-size: 100%;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
   }
   .header-menu {
     list-style-type: none;
     padding: 0px;
     display: none;
-    border: 1px solid red;
   }
 }
