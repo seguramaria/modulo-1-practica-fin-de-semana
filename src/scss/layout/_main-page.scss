@@ -1,5 +1,20 @@
 .hero {
-  height: 50vh;
+  height: 75vh;
+  background-size: 100% 100%;
   background-image: url(../images/slider-home.jpg);
+  background-repeat: no-repeat;
   background-color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $light-color;
+  border: 1px solid blue;
+}
+
+.main-text span {
+  display: block;
+  text-align: center;
+  font-family: "Source Sans Pro light", sans-serif;
+  font-size: 30px;
 }
