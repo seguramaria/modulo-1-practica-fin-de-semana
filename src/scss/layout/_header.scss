@@ -1,16 +1,17 @@
 .wrapper {
-  max-width: 1200px;
-  margin: auto;
   width: 100%;
-  border: 1px solid green;
+  margin: auto;
+  max-width: 1200px;
+}
+.header {
+  width: 100%;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header {
   background-color: $color-primary;
-  border: 1px solid red;
+  position: fixed;
+  top: 0;
   .logo-container {
     width: 15px;
   }
