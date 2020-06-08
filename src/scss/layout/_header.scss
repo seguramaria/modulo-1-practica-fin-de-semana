@@ -1,5 +1,37 @@
-.page__header {
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  border: 1px solid green;
+  padding: 15px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  background-color: $color-primary;
+  border: 1px solid red;
+  .logo-container {
+    width: 15px;
+  }
+  .brook-logo {
+    display: inline-block;
+    width: 115px;
+    img {
+      width: 100%;
+    }
+  }
+  .header-mobile-button {
+    display: block;
+    background-image: url("../images/menu-icon.png");
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+  }
+  .header-menu {
+    list-style-type: none;
+    padding: 0px;
+    display: none;
+    border: 1px solid red;
+  }
 }
