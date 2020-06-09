@@ -1,42 +1,196 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Brook</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/0c04f9b7b8.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header>
+        <div class="wrapper">
+          <div class="header">
+            <a class="brook-logo" href="#" title="Ir a la home"
+              ><img src="./assets/images/brook-logo.png" alt="Brook logo"
+            /></a>
+
+            <nav>
+              <a href="#" class="header-mobile-button" title="Mostrar menú móvil">
+              </a>
+              <ul class="header-menu">
+                <li><a href="#" title="Ir a la home">home</a></li>
+                <li><a href="#" title="Ir a páginas">pages</a></li>
+                <li><a href="#" title="Ir a Portfolio">portfolio</a></li>
+                <li><a href="#" title="Ir al Blog">blog</a></li>
+                <li><a href="#" title="Ir a Contacto">contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
+      <main class="main">
+        <div clas="wrapper">
+         <div class="hero">
+          <h1 class="main-text">
+            <span>- This is Brook</span>
+            <span>A full-service</span>
+            <span>creative agency.</span>
+          </h1>
+        </div>
+        <section class="options">
+          <div class="presentation">
+            <h3>what we do</h3>
+            <p>
+             We design & build brands, campaigns & digital projects for businesses
+              large & small.
+            </p>
+          </div>
+          <article class="options">
+            <div class="modern-desgin-1">
+              <img
+                src="./assets/images/eye-icon.jpg"
+                alt="Icono de ojo"
+                title="icono de ojo"
+              />
+              <h6>Modern desing</h6>
+              <p>Brook embraces a modern look with various enhanced predefined page elements.</p>
+              <span><a src="#" title="Ver más detalles">more details</a></span> <span class="details-icon"><i class="fas fa-arrow-right"></i></span>
+            </div>
+          </article>
+          <article class="option">
+            <div class="modern-desgin-2">
+              <img
+                src="./assets/images/book-icon.jpg"
+                alt="Icono de libro"
+                title="Icono de libro"
+              />
+              <h6>Modern desing</h6>
+              <p>Brook embraces a modern look with various enhanced predefined elements.</p>
+              <span><a src="#" title="Ver más detalles">more details</a></span> <span class="details-icon"><i class="fas fa-arrow-right"></i></span>
+            </div>
+          </article>
+          <article class="option">
+            <div class="modern-desgin-3">
+              <img
+                src="./assets/images/boxes-icon.jpg"
+                alt="Icono de cajas"
+                title="icono de cajas"
+              />
+              <h6>Modern Design</h6>
+              <p>Brook embraces a modern look with varios enhanced predefined page elements.</p>
+              <span><a src="#" title="Ver más detalles">more details</a></span> <span class="details-icon"><i class="fas fa-arrow-right"></i></span>
+            </div>
+          </div>
+          </article>
+        </section>
       </main>
 
-      <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-      <a class="link__github" href="https://github.com" target="_blank">GitHub</a>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-        </small>
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="logo-brook">
+            <img
+              src="./assets/images/brook-logo.png"
+              alt="Logo de brook"
+              title="logo de brook"
+            />
+          </div>
+          <div class="about-us">
+            <h3>About us</h3>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#" title>About us</a>
+                </li>
+                <li>
+                  <a href="#" title>Team</a>
+                </li>
+                <li>
+                  <a href="#" title>Career</a>
+                </li>
+                <li>
+                  <a href="#" title>Services</a>
+                </li>
+                <li>
+                  <a href="#" title>Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="contact">
+            <h5>Contact</h5>
+            <div class="adress">
+              <span>2005 Stokes Isle Apt. 896.</span>
+              <span>ana ville 10010, USA</span>
+              <span>info@yourdomain.com</span>
+              <span>(+68)120034509</span>
+            </div>
+            <div class="social">
+              <nav class="social-media">
+                <ul>
+                  <li>
+                    <a
+                      href="https://facebook.com"
+                      target="_blank"
+                      title="Ir a Facebook"
+                      ><i class="fab fa-facebook-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com" target="_blank" title="Ir a twitter"
+                      ><i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      title="Ir a instagram"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://pinterest.com
+            "
+                      target="_blank"
+                      title="Ir a Pinterest"
+                      ><i class="fab fa-pinterest"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="text-end">
+            <small>
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#" title="Our blog">Our blog</a>
+                  </li>
+                  <li>
+                    <a href="#" title="Últimos proyectos">Latest projects</a>
+                  </li>
+                  <li>
+                    <a href="#" title="Contáctanos">Contact us</a>
+                  </li>
+                </ul>
+              </nav>
+              &copy; 2019 Brook. All Rights Reserved.
+            </small>
+          </div>
+        </div>
       </footer>
 
     </div>
